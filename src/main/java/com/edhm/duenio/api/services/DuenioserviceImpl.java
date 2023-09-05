@@ -30,13 +30,11 @@ public class DuenioserviceImpl implements DuenioService {
 	@Override
 	public void save(Duenio duenio) {
 		duenioRepository.save(duenio);
-
 	}
 
 	@Override
 	public void deleteById(Long id) {
 		duenioRepository.deleteById(id);
-
 	}
 
 }
